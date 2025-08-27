@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f6a126369323e6108543b2597bba101a" label="Khoros Data" max_length="40" name="x_snc_khoros_looku_khoros_data" type="collection">
+        <element display="true" label="Email" max_length="128" name="email" type="string"/>
+        <element label="First name" max_length="128" name="first_name" type="string"/>
+        <element label="First pass" max_length="40" name="first_pass" type="boolean"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Last name" max_length="128" name="last_name" type="string"/>
+        <element label="Login" max_length="128" name="login" type="string"/>
+        <element label="Looked up" max_length="40" name="looked_up" type="boolean"/>
+        <element label="Second pass" max_length="40" name="second_pass" type="boolean"/>
+        <element label="SSO ID" max_length="128" name="sso_id" type="string"/>
+        <element label="View HREF" max_length="1024" name="view_href" type="url"/>
+        <index name="index" unique="true">
+            <element name="email"/>
+        </index>
+    </element>
+</database>

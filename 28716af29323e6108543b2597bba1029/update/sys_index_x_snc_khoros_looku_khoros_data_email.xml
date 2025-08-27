@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <access_method>btree</access_method>
+        <col_name_string>email</col_name_string>
+        <index_col_name element="email" name="x_snc_khoros_looku_khoros_data">83a162369323e6108543b2597bba10da</index_col_name>
+        <logical_table_name>x_snc_khoros_looku_khoros_data</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-27 23:19:27</sys_created_on>
+        <sys_id>792d727e93a3e6108543b2597bba107c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_khoros_looku_khoros_data</sys_name>
+        <sys_package display_value="Khoros Lookup" source="x_snc_khoros_looku">28716af29323e6108543b2597bba1029</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
+        <sys_update_name>sys_index_x_snc_khoros_looku_khoros_data_email</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-27 23:19:27</sys_updated_on>
+        <table display_value="Khoros Data" name="x_snc_khoros_looku_khoros_data">f6a126369323e6108543b2597bba101a</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>

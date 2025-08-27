@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
+        <sys_created_on>2025-08-27 21:27:47</sys_created_on>
+        <sys_id>4e93aeb69323e6108543b2597bba1008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_khoros_looku_khoros_data.x_snc_khoros_looku.user</sys_name>
+        <sys_package display_value="Khoros Lookup" source="x_snc_khoros_looku">28716af29323e6108543b2597bba1029</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
+        <sys_security_acl display_value="x_snc_khoros_looku_khoros_data">8e936eb69323e6108543b2597bba10fe</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4e93aeb69323e6108543b2597bba1008</sys_update_name>
+        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
+        <sys_updated_on>2025-08-27 21:27:47</sys_updated_on>
+        <sys_user_role display_value="x_snc_khoros_looku.user" name="x_snc_khoros_looku.user">67816af29323e6108543b2597bba10a0</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
