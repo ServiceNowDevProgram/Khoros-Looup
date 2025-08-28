@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dcf2cf3e9327e6108543b2597bba1065" extends="sys_import_set_row" label="u_khoros_data_import" max_length="40" name="x_snc_khoros_looku_u_khoros_data_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ï»¿email" label="ï»¿email" max_length="40" name="u_rplcd_n_ascii_1342006866" type="string"/>
+    </element>
+</database>

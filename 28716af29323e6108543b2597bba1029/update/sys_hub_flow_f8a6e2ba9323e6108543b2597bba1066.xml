@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=5639000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=66717000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,14 +15,14 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>begin_lookups</internal_name>
-        <label_cache>[{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item.second_pass","label":"3 - For Each➛Khoros Data Record➛Second pass","reference":"","reference_display":"Second pass","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_khoros_looku_khoros_data","column_name":"second_pass","usedInstances":{"366ca8c7-4e47-45c6-8960-bc2522677261":["condition"]}},{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item.first_pass","label":"3 - For Each➛Khoros Data Record➛First pass","reference":"","reference_display":"First pass","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_khoros_looku_khoros_data","column_name":"first_pass","usedInstances":{"e9fee9ec-da71-4bb1-98e3-fc8c76a0d52a":["condition"],"366ca8c7-4e47-45c6-8960-bc2522677261":["condition"]}},{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item","label":"3 - For Each➛Khoros Data Record","reference":"x_snc_khoros_looku_khoros_data","reference_display":"Khoros Data","type":"reference","base_type":"reference","usedInstances":{"f1419b7e-6553-46b7-9b65-5e3e29bf5b08":["record"],"5ed3f215-2c6e-4208-87a7-909ad6ff52f5":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"9341284c-6c68-4c7c-9b7a-e87bca5c4bf3.Count","label":"2 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"52889b2c-7a2f-4c86-96a6-f410650dde44":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.emails","label":"Flow Variables➛emails","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"aa67d1cb-1310-4881-b667-09c985f56e71":["emails-0"],"b3d66ec0-23f8-4723-9f35-6eefc9f80082":["emails-0"],"570f9734-523c-42a2-b660-a838e1432f91":["input_emails"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"db7ec1d5-1c86-42dd-9bc9-b010dfaf33c4"}},{"name":"9341284c-6c68-4c7c-9b7a-e87bca5c4bf3.Records","label":"2 - Look Up Records➛Khoros Data Records","reference":"x_snc_khoros_looku_khoros_data","reference_display":"Khoros Data","type":"records","base_type":"records","usedInstances":{"c177314a-bf8c-4c8b-a1a2-e5f476397879":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item.email","label":"3 - For Each➛Khoros Data Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_snc_khoros_looku_khoros_data","column_name":"email","usedInstances":{"aa67d1cb-1310-4881-b667-09c985f56e71":["emails-0"]}}]</label_cache>
+        <label_cache>[{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item.email","label":"3 - For Each➛Khoros Data Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_snc_khoros_looku_khoros_data","column_name":"email","usedInstances":{"aa67d1cb-1310-4881-b667-09c985f56e71":["emails-0"]}},{"name":"9341284c-6c68-4c7c-9b7a-e87bca5c4bf3.Records","label":"2 - Look Up Records➛Khoros Data Records","reference":"x_snc_khoros_looku_khoros_data","reference_display":"Khoros Data","type":"records","base_type":"records","usedInstances":{"c177314a-bf8c-4c8b-a1a2-e5f476397879":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.emails","label":"Flow Variables➛emails","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"aa67d1cb-1310-4881-b667-09c985f56e71":["emails-0"],"b3d66ec0-23f8-4723-9f35-6eefc9f80082":["emails-0"],"570f9734-523c-42a2-b660-a838e1432f91":["input_emails"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"db7ec1d5-1c86-42dd-9bc9-b010dfaf33c4"}},{"name":"9341284c-6c68-4c7c-9b7a-e87bca5c4bf3.Count","label":"2 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"52889b2c-7a2f-4c86-96a6-f410650dde44":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item","label":"3 - For Each➛Khoros Data Record","reference":"x_snc_khoros_looku_khoros_data","reference_display":"Khoros Data","type":"reference","base_type":"reference","usedInstances":{"f1419b7e-6553-46b7-9b65-5e3e29bf5b08":["record"],"5ed3f215-2c6e-4208-87a7-909ad6ff52f5":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item.first_pass","label":"3 - For Each➛Khoros Data Record➛First pass","reference":"","reference_display":"First pass","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_khoros_looku_khoros_data","column_name":"first_pass","usedInstances":{"e9fee9ec-da71-4bb1-98e3-fc8c76a0d52a":["condition"],"366ca8c7-4e47-45c6-8960-bc2522677261":["condition"]}},{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item.second_pass","label":"3 - For Each➛Khoros Data Record➛Second pass","reference":"","reference_display":"Second pass","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_khoros_looku_khoros_data","column_name":"second_pass","usedInstances":{"366ca8c7-4e47-45c6-8960-bc2522677261":["condition"]}}]</label_cache>
         <master_snapshot>312cf6fa93a3e6108543b2597bba1007</master_snapshot>
         <master_snapshot_digest/>
         <name>Begin lookups</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>062cf6fa93a3e6108543b2597bba1097</remote_trigger_id>
+        <remote_trigger_id>ce25224b472ba610e52659db416d433e</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -35,7 +35,7 @@
         <sys_created_on>2025-08-27 21:41:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>f8a6e2ba9323e6108543b2597bba1066</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Begin lookups</sys_name>
         <sys_overrides/>
         <sys_package display_value="Khoros Lookup" source="x_snc_khoros_looku">28716af29323e6108543b2597bba1029</sys_package>
@@ -43,32 +43,26 @@
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name>sys_hub_flow_f8a6e2ba9323e6108543b2597bba1066</sys_update_name>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:06</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:05</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f8a6e2ba9323e6108543b2597bba1066"/>
     <sys_variable_value action="delete_multiple" query="document_key=f8a6e2ba9323e6108543b2597bba1066"/>
-    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_snc_khoros_looku_khoros_data">looked_up=false<item endquery="false" field="looked_up" goto="false" newquery="false" operator="=" or="false" value="false"/>
-        </condition>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
         <name/>
-        <on_delete>false</on_delete>
-        <on_insert>true</on_insert>
-        <on_update>true</on_update>
         <published_version/>
-        <run_flow_in>background</run_flow_in>
-        <run_on_extended>false</run_on_extended>
-        <run_when_setting>both</run_when_setting>
-        <run_when_user_list/>
-        <run_when_user_setting>any</run_when_user_setting>
-        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <run_period/>
+        <run_start>2025-08-27 07:00:00</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 23:15:06</sys_created_on>
+        <sys_created_on>2025-08-28 16:13:05</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_id>062cf6fa93a3e6108543b2597bba1097</sys_id>
+        <sys_id>ce25224b472ba610e52659db416d433e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
@@ -77,24 +71,48 @@
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:06</sys_updated_on>
-        <table>x_snc_khoros_looku_khoros_data</table>
+        <sys_updated_on>2025-08-28 16:13:05</sys_updated_on>
+        <time/>
+        <timer_type>0</timer_type>
         <trigger_definition/>
-    </sys_flow_record_trigger>
-    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:ce25224b472ba610e52659db416d433e^sys_idNOT IN4625224b472ba610e52659db416d433f"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
-        <identifier>f8a6e2ba9323e6108543b2597bba1066</identifier>
-        <runner>FDTriggerRunner</runner>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:ce25224b472ba610e52659db416d433e</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Earl Duque">028c824bdbe988d0fde65223dc961989</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2025-08-27 07:00:00</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('ce25224b472ba610e52659db416d433e');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 23:15:06</sys_created_on>
-        <sys_id>422cf6fa93a3e6108543b2597bba1098</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2025-08-28 16:13:05</sys_created_on>
+        <sys_id>4625224b472ba610e52659db416d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:06</sys_updated_on>
-        <trigger display_value="">062cf6fa93a3e6108543b2597bba1097</trigger>
-    </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f8a6e2ba9323e6108543b2597bba1066^sys_idNOT IN422cf6fa93a3e6108543b2597bba1098"/>
+        <sys_updated_on>2025-08-28 16:13:05</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">ce25224b472ba610e52659db416d433e</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f8a6e2ba9323e6108543b2597bba1066"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=f8a6e2ba9323e6108543b2597bba1066"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=f8a6e2ba9323e6108543b2597bba1066^sys_idNOT IN45a6e2ba9323e6108543b2597bba1069"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -114,281 +132,29 @@
         <sys_updated_on>2025-08-27 21:41:05</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=45a6e2ba9323e6108543b2597bba1069"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=f8a6e2ba9323e6108543b2597bba1066^sys_idNOT IN195b2eb29363e6108543b2597bba107b,915b2eb29363e6108543b2597bba107f,d95ba27e9323e6108543b2597bba1023"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>changed_fields</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Changed Fields</label>
-        <mandatory>false</mandatory>
-        <max_length>4000</max_length>
-        <model display_value="Begin lookups">f8a6e2ba9323e6108543b2597bba1066</model>
-        <model_id>f8a6e2ba9323e6108543b2597bba1066</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_f8a6e2ba9323e6108543b2597bba1066</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 22:01:36</sys_created_on>
-        <sys_id>195b2eb29363e6108543b2597bba107b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 22:01:36</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=195b2eb29363e6108543b2597bba107b"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>table_name</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">table_name</internal_type>
-        <label>Table Name</label>
-        <mandatory>false</mandatory>
-        <max_length>200</max_length>
-        <model display_value="Begin lookups">f8a6e2ba9323e6108543b2597bba1066</model>
-        <model_id>f8a6e2ba9323e6108543b2597bba1066</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_f8a6e2ba9323e6108543b2597bba1066</name>
-        <next_element/>
-        <order>101</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 22:01:36</sys_created_on>
-        <sys_id>915b2eb29363e6108543b2597bba107f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 22:01:36</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=915b2eb29363e6108543b2597bba107f"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent>table_name</dependent>
-        <dependent_on_field>table_name</dependent_on_field>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>current</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">document_id</internal_type>
-        <label>Record</label>
-        <mandatory>true</mandatory>
-        <max_length>200</max_length>
-        <model display_value="Begin lookups">f8a6e2ba9323e6108543b2597bba1066</model>
-        <model_id>f8a6e2ba9323e6108543b2597bba1066</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_f8a6e2ba9323e6108543b2597bba1066</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 22:01:36</sys_created_on>
-        <sys_id>d95ba27e9323e6108543b2597bba1023</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 22:01:36</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d95ba27e9323e6108543b2597bba1023"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f8a6e2ba9323e6108543b2597bba1066"/>
     <sys_hub_flow_output action="delete_multiple" query="model=f8a6e2ba9323e6108543b2597bba1066"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f8a6e2ba9323e6108543b2597bba1066"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=f8a6e2ba9323e6108543b2597bba1066^sys_idNOT INdd5b2eb29363e6108543b2597bba10a8"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=f8a6e2ba9323e6108543b2597bba1066^sys_idNOT IN5025ae0b472ba610e52659db416d436a"/>
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
         <flow display_value="Begin lookups">f8a6e2ba9323e6108543b2597bba1066</flow>
         <generation_source/>
-        <name>Created or Updated</name>
+        <name>Run Once</name>
         <published_version/>
         <remote_sys_id/>
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 22:01:36</sys_created_on>
-        <sys_id>dd5b2eb29363e6108543b2597bba10a8</sys_id>
+        <sys_created_on>2025-08-28 16:12:58</sys_created_on>
+        <sys_id>5025ae0b472ba610e52659db416d436a</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 22:42:30</sys_updated_on>
-        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <sys_updated_on>2025-08-28 16:13:02</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/3VSXWvjMBD8K0XPqXGc3DX120EJ9OEu0Ja+lGLW0jpZ0NfJUlpf6X/vynZDaTjjl53dnZ0Z9PQmNLSoRS3ukr1wViwE2YjBgn4YPDK+16SwURCxiWSQBwxYLl0YRB1DwoXogjMPaLzmIVF3oHsGXVAYRL0sy4U4gk54P/S3igmZwYLJ1CHZhvLJsc9AVVY/LsvNZXV1UZb1+HNXHkirgFbUT88L4SHwdszcb99alOmvK+ikul7LVcVfWVab9bL9uWqXlVoB4oYJzyx/1xP/Z/2rKXyNaBWqk+OzXAKC2lk9nCYOnO2UgIHXnv7hTBWwQ3YhcWqeykZRz6kOEywPjiTufCQWPSIRWj3vSKeTsX8mI1wr7CDp+Dgny0jqmQ991pxVzJK6+4N7ufs8uCU7Gpyb2knQpwpiDNSmiH2OHjUaJmoMeE923/jgjjQusxZTjNkVnXYvfLSnvS1AZuEFRwTFlvGbEX6EQNnFb6bh5ffRffM35buTj1lxM5nmgTmULaGe31MvA/n4iw8cPx/g+/MHrmHEktwCAAA=</trigger_inputs>
         <trigger_outputs/>
-        <trigger_type>record_create_or_update</trigger_type>
+        <trigger_type>run_once</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
     <sys_hub_action_instance_v2 action="delete_multiple" query="flow=f8a6e2ba9323e6108543b2597bba1066^sys_idNOT IN215b2eb29363e6108543b2597bba10b5,295b2eb29363e6108543b2597bba10bb,6d5b2eb29363e6108543b2597bba10b9,a81bba7a93a3e6108543b2597bba1030"/>
@@ -407,14 +173,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 22:01:36</sys_created_on>
         <sys_id>215b2eb29363e6108543b2597bba10b5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:13</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:07</sys_updated_on>
         <ui_id>9341284c-6c68-4c7c-9b7a-e87bca5c4bf3</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VX22rjMBD9leBnE+wmTbt9W1oKy/YCbenLbhGyLSeiiuSV5Fwa8u87utgxidNNwIWWfdRcNGdG58jyr1VAs+AiOM+HUYTj0/OzKBoMomg0GqQ4TpLBKE2iZJgEYcDxlECkxgkjsJxhVpr1AimeoteJkEIhJsRrWS0yrDEEZlQVDC+fffxP6+xdOWc6oSyThAcXv17CoMASimgig4vVlutQlAwnhEHok4e5hVovi3qJrM/ZbpppvTvnEDIzUKIwIAtNeEYAQ46ZImEwxRzaE3JZWyTB2T1nG8OEcg07BiZ4oegb1D2PTFxOoKuUOF+9RH5Ozpyb+TxqWaa6lD40nQiaEuXmkZEcl0xfNm0u4L7QVHCX4tp22YKVU37nxhHUG1THApZSAQhSmEYNct9G/jgR84cK5TXldibeyUSKWb3CWkualNrgWQWEkSlshKa4KCgfo0KKGbXJgGXaHzNY9HMm5lBU0THv49QA7xva9K/BfmXNz1hS08UtbAPJAIgyYAhyR6hEKe0oZyhlpbIOiblyewXrMFBLdcmwUpvOYeToT2lwuzn4jpEbmklJJS30d9hiRnxz6/AgoZxGG8qlgmfUoFANtRiBkAyVxe8S8jO7965G9kR1KRaLtBLLZRNqG3wvmx3bTdsGXjZxZ7KBPr6ScKD459PN8UpwI/iHHNKzd0l2uuGTElIjN8uGHsgUU7YrgMp8HOMPAFMx/t5wtJcs9+HzhM8pYVnbd+LaOLa+Eyf/53fiU9IdAGXInR7ljHL70QegH6WD6P3L9tsWzyy9NiqwNqzSXSHgnha9t6OVcACcSgmPULv35PC0QKxufkuZ7Vu/MnoBDDoTwOCkGwGs6jbrQbbMvHrnmdOs4t9MPN6OBwo2EuJ1m8COqhkfW/NkvSvgwVEKbpLNea72cK7jB+EeRYYfeQVMINXXQ06/aE6zMdGb6lVUJvQcs9c2v2ccqg7KPci6f1wO35XtKN5IFJSCJFFweM3XZRzt3iDWdtztcQCMahK3eNF7qHG0gvM3CIicjO2xNK+QH7XV83vY4avx035EY3jQ7pVfHDrvl/gd604DL38BsvcpMYsQAAA=</values>
@@ -435,14 +201,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 22:01:36</sys_created_on>
         <sys_id>295b2eb29363e6108543b2597bba10bb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:13</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:07</sys_updated_on>
         <ui_id>5ed3f215-2c6e-4208-87a7-909ad6ff52f5</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXU/bMBT9K5Wf2ypp+v02USFNYyDBxAtjkWPfUAvHzmyn0FX977tOnLYqiBWJF7S83Y9jn3NzT3K3IYKTORkCj+JZPGZJnCSDKBpMh3E2TrJ4wBMKEJMuUbQA7DTAtOEYr6isfGKzYfFkksRD2svyKesN2TTr0ZgOejDKh5NxMptMJ7O+cFBst4jjwpaSrm8DHDNsKSQ3oMj87r5LSmrwJgeGzDdHpVOpSpqBxNbrlusxd7cufcw1qwpQLhVt8iIgF6HS+brACoI8nTjqEnh2oDggkZxKC11SUMWp02ZN5s5UmDBA+ZWS613HUijXCC3osxV/8OZh5PtyQGUsDGEXpmFATTpfUEdv8GTmKrOblxYMbDMTDjmtpDs7zDUNV6UTWjUQRzPZorWsCnXZTITsDjh4H5VFElB6nZ55Iyu/Weqn65bkuVD1SIJEqRmVu4g6Z0RWOU9nQ0BCPeOClqVQD2lp9ErUYKRS9B8kBv1c6ie804oH1afM8+7jVGn/HPOLOn1LjfAivuMxCN52iV3bM0mt3UvBGaa/K8+kERYkpPUU6hGk9SZ4MDOidF/wqhUE4ttuMEM2emvD2Gy/UAdn7g3xnFrF0selNtqmUuvHqg28pJcO+FYXO4um+D4znEC1NcOPegVepx788CJ3cYjtXDaF4IbRh7lh+pncEGR8ejv8ywTR4M3P7MEm1XtvDwxg8TOreFoimZ9VFCXcr8Iv7wTgaVXucy+98B7o+5xygp7WKecCJLevCGxtAgVydpA2go+sEoqd21Dc/Tw+zC/xOKqfT+Sa/+Yfcv8XnD0XNFIJAAA=</values>
@@ -463,14 +229,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 22:01:36</sys_created_on>
         <sys_id>6d5b2eb29363e6108543b2597bba10b9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:13</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:07</sys_updated_on>
         <ui_id>f1419b7e-6553-46b7-9b65-5e3e29bf5b08</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXU/bMBT9K5Wf2yppSr/eJiqkaQwkmHhhKLqxb6iFY2e2U9pV/e+zE6etWsZA4gUtb/fLPufmnOR+QzgjMzJEFsXTeESTOEkGUTSYDONslGTxgCWAGJMukVCg69RIlWYuXoKofGKzofF4nMRD6GX5hPaGdJL1IIZBD8/y4XiUTMeT8bTPLRbbrZtj3JQC1ndh3GXoggumUZLZ/UOXlKDdTRY1mW2OSm+FKiBD4VpvWqzH2O269DFTtCpQ2pS3ycswOQ+Vzte5q7ghDyeOugRXFiVDByQHYbBLCpAMrNJrMrO6cgmNwK6lWO86FlzahmgBK8N/u5uHke/L0TGjYQm7MA0LatL5HCzcupOprfRuX4pTNM1OGOZQCXt+mGsarkvLlWxGLGSinVaiKuRVsxGyO+DgfVTGgcDS8/TIG1r57UI937QgL7isVxIoCkVB7CKwVvOssh7OhqDAescFlCWXj2mp1ZLXww5K0X8ULujnQj27Ow1/lH2gHnffbRX6Fy4/r9N3oLkn8d0d44a3XWLW5lyAMXsqbofpr8ojaYgFCmm9hXoFaa0EP0w1L+0Xd9USA/BtN5ghO3tNYXS6F9TBmXtDrFIjafq0UFqZVCj1VLWBp3TqgG91sTNviu8zwxugtmb4UUvgZejBDye5y8PZzlVTCG44+zA3TD6TGwKNT2+Hf5kgGrz6mT1QUq17c2CAnGtj09Jh+VlFUcK8Ek5l/5eu9+n/DShb/V9wFMy8ALsVPxYOnsW0oXFkgFDs3IXi7pfwYS6IR1H9fCIv/Dd/hoc/ORRdTigJAAA=</values>
@@ -491,14 +257,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 23:10:21</sys_created_on>
         <sys_id>a81bba7a93a3e6108543b2597bba1030</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:13</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:07</sys_updated_on>
         <ui_id>570f9734-523c-42a2-b660-a838e1432f91</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/41SXW/bMAz8L3p2DCdO4iRvQ4sCBbYVWLe+FIVBS3QiQJZVfaT1jPz3UbaTDu2A9ZHHI3k88rFnUrAdE3MB9aKAbQ45rufZZrXMq8VqW1QVzLN1zhKmoUFiSm2CL7EBqRyhR1Ahwn1fq/alPIKVUClMR8LpRBQhnVHQPfyfyQ9SCYua7R6fEmbA0kiPlu36d6nPalZQofoo+t+r+M5E1Hkr9X6Kv04N7s9ga0UUNE8YvnrUAklJDcphwhrQAnxrO7bzNhBgEcSdVt2FcZDaUzMWua9O/qZxmyzLIrNGWo7jmL2E5eTdCNfX4IGUBO6Dnaj80EqObrRFYA1B+au/sZFwZ7xs9Vjio+1TdatCo7+PdrBLg/OpCAmORKCJm0bt0yL1/aF9+XFWeSP1YMqUVC0HdYnAk3VV8FFPz4L8+c7lEfngMypsaGLZgDGElMa2RzlMIdFNulcUpMMjCXRyr1PgccOULgDpDeHXA/wwfdk3akPFcdwvLZ8D3g4ftMIC83kxyyu+ni3zDGdbvlzNNtW62CwzyHi2YKeEuc5dKXDuzSi6UPkc4pqjbZNB5ehxLOFWGv+FRB1x8uL09Af7QSkSbgMAAA==</values>
@@ -524,14 +290,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 23:10:21</sys_created_on>
         <sys_id>281bba7a93a3e6108543b2597bba1035</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:04</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:02</sys_updated_on>
         <ui_id>68a99d00-0158-4cc7-91a1-9cef4b6fe8ae</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8F55tQbIsx/YtQBEgQNsAjZtLEQhLcmUTpUiFpOy4hv+9Sz3swOgPFMhNO+TuzgwHOjHbhqYNfmPvvVdbw9a/XidMmYjR94kZqJGtGdagtGcTtgfdRoA+pfKNhuPLFRE7paXDYUoDjpoDOrY+3RyFY4OlBo6aGp+DU2ZL7UpSJYuCz5DPVvkix0WWLot5zmfF6o5zyFIAujc2XkjdkozjqfbjYOtkZJFOGL4HNBJpUQXa44TVYCQE644XxCHIJ6OvwE6Z0Our4d2rPzR6maZpvFkhSRKD+ktZDs6Mplgl8KkJypoeCcD16JjVbW2+9/yjp1hBq8MHT1tP87CJrCONgVP1vLOHH+PCB2U6gcOhtgL0pYJANvA2oI/v0KrNjTk98vX2MVBjTRvLGpqGkLJxdq+6LUS6TraaiqTS9kDsYnISEFFhQm5C8kD4lw5+Aaei3G80hprjup9GvbX42D02v0ORyWKaieViOp9JOV1xsZryNEtlBVWeizk7d9aWb20U1Zs02FH2jtIFL5xqwj1R2OOg/Pwa09pv77Pc5esfcfnM9Gem/59MSxTKE6tNpPA4/qnjwZEyo8RH6GDd76jnip3/Alebd93zBQAA</values>
@@ -555,14 +321,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 22:01:36</sys_created_on>
         <sys_id>2d5b2eb29363e6108543b2597bba10b6</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:04</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:02</sys_updated_on>
         <ui_id>c177314a-bf8c-4c8b-a1a2-e5f476397879</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhj8yJ86twFCgh7ZAV/QyFAYt0YkwWdIkOaln+L+Pip106HEnm4/k43siR2b6YPvgX82d9/Kg2f7n+4pJHTH6H5mGDtmeyYCdZyt2AtXHeByrYpPluw1fl7zcrTd8y9dVs4U17rYNh29807RF8oLcOOGniVqF9FbB8Pb/DPwolXC4iLTgSFtAx/bjl1QYLNYKGlQ0aGGgfikozCrRVlla8SIvizxNSUHWlEWT5aIAFCXVXTsfFtNf3iCyU+huvPSJKvJ0xfAjoBZIg1pQHlesAy0gGDewfXA9AQ5BPGs13CqOUgeiY7H2w8s/xJ2laSxskRxxnJO3sF4ecob50UiOzzZIo2ckQKOWHm5U3+mnWX5cAbbQq3BdASG9Jz60UXNUsUhqfxzN+eU68F7qi78lqQwHdYsgBCebPqCPa0CFHRHVHVgr9aG2zpzkpZm0dMlBUZC0ypxpaDy3BHgUntATQXJP+PcL/AZORhePREPN08V9/buPc2cfi+J6Nk0Fnjtpwx3RnXARN73He52Z/HwYArn0NPA1Yg/XK4+JgZYs+b/Q2bhfUeonNv0FoCYU6S8DAAA=</values>
@@ -586,14 +352,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 22:01:36</sys_created_on>
         <sys_id>2d5b2eb29363e6108543b2597bba10ba</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:04</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:02</sys_updated_on>
         <ui_id>366ca8c7-4e47-45c6-8960-bc2522677261</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lUJnWdDD71vQIECBtgGaIJc2FVbkyiZKkSpJ2XEN/3uXethuk6BND0UPvYlD7u7MeAfeB7pxdePsrb6wVqxUsPx4HwZCeYy+94GCCoNlwLTiwgmt8hYIgw3Ixl/QJxe2lrC7OyFsLSQ32HerwVCNQxMs9z9duV2NuYQCJRXeOCPUisoFp1MZQ5ksWMKydJqlcZzOx0kxzYok5RkgpPRuKHw9kHv1tkXCZ1n7eYTbYZI23NNK4jDAB4eKI40uQVoMgwoUB6fN7ogYBH6t5AlYC+U6xRU8WPGNeqeTiX9YImlkvR3HY95bNbikBcPr2hPsEAeFHCzUsqnU+06HNxlLaKQ7M7mx1A9rT9qz6CmVN2u9/TAMvBKqFdhfSs1AHk/gyIaicWj9D4MSK2qUV1DXZE5eG70RbTFxqaKVpENUSr2loX5TImCeeEQeQXRF+GUL34ERXsU7akPFHc0CrGB5u1XUzhmScGhtyb82nlAnsJeSd27QA8uMqN0Fzdlgz/oQPl7Js23c71kym2XJGEZFOWejMZsXI0ggHeGkHM+m2WI2ny0i4bCKLPoOeQ3WHg6fmjjOeDvi80ualMJY90OPVt2jUPw7xP5CNpOnsvlEKp8PZPqLQHotv5nHOI7/B/I8kMLmXbB6be3wP87jvQ9fN8F2e8ORCUtEbj32Zvgn8Rc7WgDBzqGtNl+8hBN2+A760T7gkwYAAA==</values>
@@ -617,14 +383,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 22:42:30</sys_created_on>
         <sys_id>68b4befe9363e6108543b2597bba102d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:04</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:02</sys_updated_on>
         <ui_id>fbfdb826-1958-4ea2-ba0c-7cd6137e5c87</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1YWY+bMBD+K4jnNMUQYJO3qttKfeihbrQvVYWMPSRWHaDG7DZd7X+vbQxhE5K9sr2lSIlnzJzfDDO5cotalrWs5sWLqmKL3J19+jxyWa5p6veVm+MVuDOX1gJLVuSJXJfgjtwLzGtNh28lZ4TJpL2geJRVJcfrc3vllb3i9K6QJeNUgFVXYqG0SBDu7GqLpdUlHKfAlaSXy4IRrZ1RdZpM4yA8QZM48AIUeF4aIYiiSRylWYTjk1Ddax88tZqdeWP9HqfM10xZYNUUgmqbkOeNlKMScgpKcYZ5BSN3hXOKZSHWHUUApu9zviEsWS6VPFdf/lax70r4xNP3MlAOEmh43TGxgWvIjRVNElo/hkJ5KBPWAe96tJHxEbhiX8CQDGF5AzJQX8YHEARyiReDUsqOOyDHv1ZZpZDhmsuXx3MRHcFF/0guBtrFJn3vS8OauYGGF065zTkpeL3K3zUwdLuAnB+qqubK6e3FVVfKKig1XDX+LBizs2Vx+bHF2muWG1stkxcE8+6EpRQsraVOzZULHFZKULLCZcnyRVKK4oKZh5Ubq/GCq8M448WlUqpbyBgTbchYVQcev1b0U0M+x4LpALxVYtTD1wb4ydda621CYC1OTMD0hYoIVsoXROfLGqdTZKu3lwPJViAS07USpRb0uZet3Z704BZ0qqQ/nzfiTRdKM0QjFKE0DiJfdaFgQiIC0RQAITz1vV4X6kHKGOwYgx1tsGMtvrNrtlWZ4Bt6YhlP0LOMrPs0rQ719wL9n4JclfgqaaBpfTPKj4DoJteb5D8NhN/kEhaNHxrAJ14QBN6UhEHcAZhSgCyLU+QDGgTwBqoDNltssk7Pf0z+6ZgceAWiaew985D6OJ43059oF6SRcwakyGn18Ia70WzgChmahGTf1JfCwNS3DdaeMzfb6O5E8Asnv/+AfQxgd8a8pFBqddZ6EMaZNKZsgbYlH2NJoQRPkBfugasf9eA6NzOB2J5dnZ7hd3dxzyoT/DarTBvk7VwMrSwpZIXovw07Qjf9H14qblGG7qXMf/R43+FucKRvuVt1LEX9O5ZxayFZJ4dWrN41C80N6G6r+Ztr+oMbwE9eDFDmh3Rv5cfBgcrfXQju4NNtG8HkL3iXPbIGhl85o3+uNiqyBFrzJ6qELjNtJWRpGKqhbU8lRP7NkU0lwJFLcLKCq8jqU8/cfW7YuImeagv78IiwD/ybsCervG/EUAmcbdj/wlj30PHts0ZiI6lqIEWBsEopnGvam/b/aM1YKxAw0iddFuKLNnVDu/4BUk690dkWAAA=</values>
@@ -648,14 +414,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 22:01:36</sys_created_on>
         <sys_id>ad5b2eb29363e6108543b2597bba10b7</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:04</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:02</sys_updated_on>
         <ui_id>aa67d1cb-1310-4881-b667-09c985f56e71</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1WS4/TMBD+K8YnWNps0rTbdjmtBAgkYCV24UJXkeNMWoNjBz+6W6r8d8Z5lFUFiAu39pL487y+byaj7qn2rvbO3uora8Va0csvdyMqVMDwfU8Vq4BeUqiYkJaO6JZJH4D9vpT6PtsyI1guIeoMmma03/NkPk+TKRvn5YKPp3yRj1nCJmOYldP5RbqcL+bLSDioOqemwbCFsLVku8//JzrfCFkY6NnVzCApB4Ze7o+u3K6GTLIcJBZx44xQa3QXBZ6K2SyfQD5ZphcpXCTxYjZN88lsOc9zlsSMod3geBDrWLwQHs92CKxNEaqIRxQeHKgCMFHJpIURrZgqmNNmd0AMsOJayV/ARiiH0WgwfrDiB4ZexHEcLEtAShy628Mx61XuYL7RgsN17YRWHeKC1v2llr5SH7r6Q3+gZF66oT+IeIvxoA5VhzL6msqbjb7/OCR8LVRLsL+UmjN5ODGHMuTegQ198OL2SJwOeXfcDJBQYcasYnWNSFYbvRVtFiy6itYSD1E7PQWEiY4YDwwjVJNFrxF/2cKf+9F6j2HQOaT7pMR3D2/bZudz4EkxGyd8cTGeTopivMz5cpzHSVyUrExTPqVNK2323QdSnUi9HFmnKBpYbkTtrrCELZJzxsOABdL9YODb3+zo+dlKnZ1dcQ7WkkDh/KrlRAIn4i3KQNwGSFlkLaLzr8BdRG7aAKTy1hEDzhtFGGk/4IiEiNdh/IjyVY4PYYkuSwuO5DvyPCFCkVfGaEPe4CTKkOIGOiXbYrZYedCP6HaALOlni/gaC6sNlhp8VjRaUcJK/NqG8oI7PLCqlnCJ1RhiN9o47AonKx/HaTEYRtjy9RpMxL3BcXJRaxja2vLCrC9CrJ7ZIUoAz1dKlOTpkyHSsE36RfKM7FeK4K/3HcyyNMtKbTJgfPNoh2DEhgAO7R/cjqKT5y2RyXzUPfD8Dwlo0zR3Yb92c9lt33bz/GaRnLbwaQuftvBpC5+28P/ZwgVwYZHabRD37fBvOFzscJsI/hi61+ZbyP0La34CsJCvblcLAAA=</values>
@@ -679,14 +445,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 22:01:36</sys_created_on>
         <sys_id>d15b2eb29363e6108543b2597bba10b2</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:04</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:02</sys_updated_on>
         <ui_id>52889b2c-7a2f-4c86-96a6-f410650dde44</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8FUNnWaAl2XJ8C1IEKNAmQBPk0gYCRa5sohSp8mHHNfzvXerhBE2MFkGP1UmcXc7OrAY6RNq71jt7ry+tFWsVrb4+xpFQAcP3Q6RoA9EqYlpx4YRWZQfE0ZZKHwo3etJoAxMDTBtuscKFbSXdP5xtYBshuYFhVksNMjow0erwW8ntWyglrUAiz50zQq3xuuB4qjhNWUXyIiPZLCNkMUtZWmQ1PgtazAn2jRevRumTTx0Sn/UU5iFux0moN8iaERJH8ORAccDZNZUW4qihilOnzf6EGKD8VslnYCOUQ74oND9Z8RPJ0/k8NNaAJhn0xdOxHFbXw2yjBYPbNijsEUcrOdxhWvpG3fRGwtKhpl66cemIeIt80AbRQcUgqb7b6N2XceC1UJ3DoSg1o/J0og73UHkHNnwZkNAgUdnQtsXtlK3RW9FdRi1NspZ4SGqpdzg0BCmhLAhPcEc0uUb8Qwc/UCOCi89Ig5ePnfvyhw9zex+D4rI3jQ2WGdG6S6TbwiDuGL8O5otMHg4XWT5LlzmbLthiOc1ZwaYXVUGnsCwqRucsr+osudJeuePxmyck4+R1ct9L8y/yzYtZtqzP5XvJ3sr3G8k+H+r0T6F2xv9tpkng+h/qMdT4CW3Zp3bw1g1/d9gfQ7L7CbYPDgcmLAq5D9jH8WcdCntMgGAvoZ0234OFZ+z4C6w1PIr2BQAA</values>
@@ -710,14 +476,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 22:01:36</sys_created_on>
         <sys_id>e95b2eb29363e6108543b2597bba10b8</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:04</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:02</sys_updated_on>
         <ui_id>e9fee9ec-da71-4bb1-98e3-fc8c76a0d52a</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8lUJnWdDD8usWtAhQoG2AJsilDYQVHzZRimRJyo5r+N+71CM2Egctihx7E4fa3dnRjA6Rbr1pvbvTV86JtYpW3x7iSKiA4fMhUtCwaBURrajwQquqA+JoC7INF/hIhTMS9vcnhGyEpJYN3QxYrPHMRqvDsyu/N6ySUDOJhbfeCrXGckHxxFPg2ZJkpMhnRZ6m+WKa1bOiznJaAIMC3xsL34/k3n3qkPhV1mEe4m6cpC0NtLI0jtijZ4oyHM1BOhZHDSgKXtv9E2IZ0BslT8BGKN9v3MCjE7+wd16W4UXOcEcyyPF0rAapRpW0IOzGBII94qGWo4Rato360u8RRGYcWunPRG4d9mMmkA4sBkr8dqN3X8eB10J1Cw6XUhOQTyfwKEPdeubCh2GSNdioasAYFKcyVm9FV4xcmmQt8ZBwqXc4NDglARKIJ6gRJNeIf+jge7AibPEZ22BxT7MGJ0jVuQrbeYsrHDtZqp9tINQvOKxS9WrgC45YYfwVztmygfUxfmnJMzceDiSbz4tsCpOaL8hkShb1BDLIJ6zk0/msWM4X82UiPGsSLqzzlQHnjsfvbZoWtJvw0tBv0/QtMrGEkpdZWl7OxHR2KRMX0vB6EPI/BCF8ur/MQZqm/4NwHgThqt7Qw269Mf41Bw/B9P0E1/uGMiIcErkL2MfxDx4u9mgAQc6hnbY/wgon7PgbztsrxgsGAAA=</values>
@@ -808,75 +574,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_variable>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>current</element>
-        <help/>
-        <hint/>
-        <label>Record</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_f8a6e2ba9323e6108543b2597bba1066</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 22:01:36</sys_created_on>
-        <sys_id>195b2eb29363e6108543b2597bba107a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Khoros Lookup" source="x_snc_khoros_looku">28716af29323e6108543b2597bba1029</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 22:01:36</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>changed_fields</element>
-        <help/>
-        <hint/>
-        <label>Changed Fields</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_f8a6e2ba9323e6108543b2597bba1066</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 22:01:36</sys_created_on>
-        <sys_id>915b2eb29363e6108543b2597bba107e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Khoros Lookup" source="x_snc_khoros_looku">28716af29323e6108543b2597bba1029</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 22:01:36</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>table_name</element>
-        <help/>
-        <hint/>
-        <label>Table Name</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_f8a6e2ba9323e6108543b2597bba1066</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 22:01:36</sys_created_on>
-        <sys_id>d55b2eb29363e6108543b2597bba1081</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Khoros Lookup" source="x_snc_khoros_looku">28716af29323e6108543b2597bba1029</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 22:01:36</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f8a6e2ba9323e6108543b2597bba1066"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f8a6e2ba9323e6108543b2597bba1066"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -893,7 +590,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>begin_lookups</internal_name>
-        <label_cache>[{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item.second_pass","label":"3 - For Each➛Khoros Data Record➛Second pass","reference":"","reference_display":"Second pass","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_khoros_looku_khoros_data","column_name":"second_pass","usedInstances":{"366ca8c7-4e47-45c6-8960-bc2522677261":["condition"]}},{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item.first_pass","label":"3 - For Each➛Khoros Data Record➛First pass","reference":"","reference_display":"First pass","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_khoros_looku_khoros_data","column_name":"first_pass","usedInstances":{"e9fee9ec-da71-4bb1-98e3-fc8c76a0d52a":["condition"],"366ca8c7-4e47-45c6-8960-bc2522677261":["condition"]}},{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item","label":"3 - For Each➛Khoros Data Record","reference":"x_snc_khoros_looku_khoros_data","reference_display":"Khoros Data","type":"reference","base_type":"reference","usedInstances":{"f1419b7e-6553-46b7-9b65-5e3e29bf5b08":["record"],"5ed3f215-2c6e-4208-87a7-909ad6ff52f5":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"9341284c-6c68-4c7c-9b7a-e87bca5c4bf3.Count","label":"2 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"52889b2c-7a2f-4c86-96a6-f410650dde44":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.emails","label":"Flow Variables➛emails","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"aa67d1cb-1310-4881-b667-09c985f56e71":["emails-0"],"b3d66ec0-23f8-4723-9f35-6eefc9f80082":["emails-0"],"570f9734-523c-42a2-b660-a838e1432f91":["input_emails"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"db7ec1d5-1c86-42dd-9bc9-b010dfaf33c4"}},{"name":"9341284c-6c68-4c7c-9b7a-e87bca5c4bf3.Records","label":"2 - Look Up Records➛Khoros Data Records","reference":"x_snc_khoros_looku_khoros_data","reference_display":"Khoros Data","type":"records","base_type":"records","usedInstances":{"c177314a-bf8c-4c8b-a1a2-e5f476397879":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item.email","label":"3 - For Each➛Khoros Data Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_snc_khoros_looku_khoros_data","column_name":"email","usedInstances":{"aa67d1cb-1310-4881-b667-09c985f56e71":["emails-0"]}}]</label_cache>
+        <label_cache>[{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item.email","label":"3 - For Each➛Khoros Data Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_snc_khoros_looku_khoros_data","column_name":"email","usedInstances":{"aa67d1cb-1310-4881-b667-09c985f56e71":["emails-0"]}},{"name":"9341284c-6c68-4c7c-9b7a-e87bca5c4bf3.Records","label":"2 - Look Up Records➛Khoros Data Records","reference":"x_snc_khoros_looku_khoros_data","reference_display":"Khoros Data","type":"records","base_type":"records","usedInstances":{"c177314a-bf8c-4c8b-a1a2-e5f476397879":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.emails","label":"Flow Variables➛emails","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"aa67d1cb-1310-4881-b667-09c985f56e71":["emails-0"],"b3d66ec0-23f8-4723-9f35-6eefc9f80082":["emails-0"],"570f9734-523c-42a2-b660-a838e1432f91":["input_emails"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"db7ec1d5-1c86-42dd-9bc9-b010dfaf33c4"}},{"name":"9341284c-6c68-4c7c-9b7a-e87bca5c4bf3.Count","label":"2 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"52889b2c-7a2f-4c86-96a6-f410650dde44":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item","label":"3 - For Each➛Khoros Data Record","reference":"x_snc_khoros_looku_khoros_data","reference_display":"Khoros Data","type":"reference","base_type":"reference","usedInstances":{"f1419b7e-6553-46b7-9b65-5e3e29bf5b08":["record"],"5ed3f215-2c6e-4208-87a7-909ad6ff52f5":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item.first_pass","label":"3 - For Each➛Khoros Data Record➛First pass","reference":"","reference_display":"First pass","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_khoros_looku_khoros_data","column_name":"first_pass","usedInstances":{"e9fee9ec-da71-4bb1-98e3-fc8c76a0d52a":["condition"],"366ca8c7-4e47-45c6-8960-bc2522677261":["condition"]}},{"name":"c177314a-bf8c-4c8b-a1a2-e5f476397879.item.second_pass","label":"3 - For Each➛Khoros Data Record➛Second pass","reference":"","reference_display":"Second pass","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_khoros_looku_khoros_data","column_name":"second_pass","usedInstances":{"366ca8c7-4e47-45c6-8960-bc2522677261":["condition"]}}]</label_cache>
         <master>true</master>
         <name>Begin lookups</name>
         <natlang/>
@@ -909,7 +606,7 @@
         <sys_created_on>2025-08-27 23:15:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>312cf6fa93a3e6108543b2597bba1007</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -917,7 +614,7 @@
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:04</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -942,281 +639,29 @@
         <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f92cf6fa93a3e6108543b2597bba1007"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=312cf6fa93a3e6108543b2597bba1007^sys_idNOT IN392cf6fa93a3e6108543b2597bba101e,752cf6fa93a3e6108543b2597bba1017,fd2cf6fa93a3e6108543b2597bba1008"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>table_name</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">table_name</internal_type>
-        <label>Table Name</label>
-        <mandatory>false</mandatory>
-        <max_length>200</max_length>
-        <model display_value="Begin lookups">312cf6fa93a3e6108543b2597bba1007</model>
-        <model_id>312cf6fa93a3e6108543b2597bba1007</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_input_312cf6fa93a3e6108543b2597bba1007</name>
-        <next_element/>
-        <order>101</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 23:15:05</sys_created_on>
-        <sys_id>392cf6fa93a3e6108543b2597bba101e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=392cf6fa93a3e6108543b2597bba101e"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>changed_fields</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Changed Fields</label>
-        <mandatory>false</mandatory>
-        <max_length>4000</max_length>
-        <model display_value="Begin lookups">312cf6fa93a3e6108543b2597bba1007</model>
-        <model_id>312cf6fa93a3e6108543b2597bba1007</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_input_312cf6fa93a3e6108543b2597bba1007</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 23:15:05</sys_created_on>
-        <sys_id>752cf6fa93a3e6108543b2597bba1017</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=752cf6fa93a3e6108543b2597bba1017"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent>table_name</dependent>
-        <dependent_on_field>table_name</dependent_on_field>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>current</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">document_id</internal_type>
-        <label>Record</label>
-        <mandatory>true</mandatory>
-        <max_length>200</max_length>
-        <model display_value="Begin lookups">312cf6fa93a3e6108543b2597bba1007</model>
-        <model_id>312cf6fa93a3e6108543b2597bba1007</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_input_312cf6fa93a3e6108543b2597bba1007</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 23:15:05</sys_created_on>
-        <sys_id>fd2cf6fa93a3e6108543b2597bba1008</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fd2cf6fa93a3e6108543b2597bba1008"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=312cf6fa93a3e6108543b2597bba1007"/>
     <sys_hub_flow_output action="delete_multiple" query="model=312cf6fa93a3e6108543b2597bba1007"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=312cf6fa93a3e6108543b2597bba1007"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=312cf6fa93a3e6108543b2597bba1007^sys_idNOT IN312cf6fa93a3e6108543b2597bba1071"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=312cf6fa93a3e6108543b2597bba1007^sys_idNOT INa125ee0b472ba610e52659db416d43c9"/>
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
         <flow display_value="Begin lookups">312cf6fa93a3e6108543b2597bba1007</flow>
         <generation_source/>
-        <name>Created or Updated</name>
+        <name>Run Once</name>
         <published_version/>
         <remote_sys_id/>
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 23:15:05</sys_created_on>
-        <sys_id>312cf6fa93a3e6108543b2597bba1071</sys_id>
+        <sys_created_on>2025-08-28 16:13:04</sys_created_on>
+        <sys_id>a125ee0b472ba610e52659db416d43c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
-        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <sys_updated_on>2025-08-28 16:13:04</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/3VSXWvjMBD8K0XPqXGc3DX120EJ9OEu0Ja+lGLW0jpZ0NfJUlpf6X/vynZDaTjjl53dnZ0Z9PQmNLSoRS3ukr1wViwE2YjBgn4YPDK+16SwURCxiWSQBwxYLl0YRB1DwoXogjMPaLzmIVF3oHsGXVAYRL0sy4U4gk54P/S3igmZwYLJ1CHZhvLJsc9AVVY/LsvNZXV1UZb1+HNXHkirgFbUT88L4SHwdszcb99alOmvK+ikul7LVcVfWVab9bL9uWqXlVoB4oYJzyx/1xP/Z/2rKXyNaBWqk+OzXAKC2lk9nCYOnO2UgIHXnv7hTBWwQ3YhcWqeykZRz6kOEywPjiTufCQWPSIRWj3vSKeTsX8mI1wr7CDp+Dgny0jqmQ991pxVzJK6+4N7ufs8uCU7Gpyb2knQpwpiDNSmiH2OHjUaJmoMeE923/jgjjQusxZTjNkVnXYvfLSnvS1AZuEFRwTFlvGbEX6EQNnFb6bh5ffRffM35buTj1lxM5nmgTmULaGe31MvA/n4iw8cPx/g+/MHrmHEktwCAAA=</trigger_inputs>
         <trigger_outputs/>
-        <trigger_type>record_create_or_update</trigger_type>
+        <trigger_type>run_once</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
     <sys_hub_action_instance_v2 action="delete_multiple" query="flow=312cf6fa93a3e6108543b2597bba1007^sys_idNOT IN352cf6fa93a3e6108543b2597bba106d,392cf6fa93a3e6108543b2597bba106f,f12cf6fa93a3e6108543b2597bba106e,f92cf6fa93a3e6108543b2597bba106e"/>
@@ -1352,14 +797,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 23:15:05</sys_created_on>
         <sys_id>7d2cf6fa93a3e6108543b2597bba1064</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:04</sys_updated_on>
         <ui_id>52889b2c-7a2f-4c86-96a6-f410650dde44</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27aQBT9lWjWxjI2YMIuIopUKU2kJsqmjazr8RhGHc+484BQi3/vHT8ANUFt2i7Lijn3dc7lHtEQ5WztrHlUV8bwlSSLz88B4dJj+L0hEipGFoQqWXDLlcxaICAbEM4H7tRFpTS70IwqXRiMFNzUAnZPZxPomotCs35WDRo7WqbJovkpxAuszwuIaR5N0iRKxkkUzcYxjdOkxM8M0mmEDQXkTGDqciB5cdsiwVn2dld73FjN5ap/3/ZdHgYQ6XpW4ygKCHuxTBYMCZUgDAtIBbIAq/TugGgGxb0UR2DNpcV+xCe/GP4dJ8bTqU8sGWqkrAsenlm/uQ4ur8ECcnHUOt2n0rXilJluOwUrwQm7PMW6hPvaa+1KLORiqFbCVfKuWwk5NBh+KEScQRKs9ko99V5H+bBW208Dyxsu27X0QaEoiMMLLC4vd9bzaQgTrMJGWQV1jSvNaq02vC1GLlW4EvgIS6G2ONQfXwjUEw9xsRDeIH7dwk+guVfxEdtg8T4gZmeWAow5asElZt+cZ9Ip6zVk3Rp8CdW8tlc4YMN6uvvg9XmfXHbTXCaTcTyf0NGMzuajCU3p6DJPYcTmaU5hSid5mYRL5aTd77+4KEqK6PX9/2mb97mkSMfJvDznkjl9yyVv+OOd1oh/ZQ083991RuR7/bfGX1kDj8Fk3aX32trh/9Ayz94f3czDrik3SO3RYx+GPw4f2OF1cXoKbZX+6kUdsf0PqrjzpIIGAAA=</values>
@@ -1383,14 +828,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 23:15:05</sys_created_on>
         <sys_id>b52cf6fa93a3e6108543b2597bba1067</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:04</sys_updated_on>
         <ui_id>aa67d1cb-1310-4881-b667-09c985f56e71</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1WS2/bOBD+K1yeuqmtSJYd29lT0Ae2wLYBmrSXuhAoamRzS5EqH05cQf+9Qz2cIEUXe+mhgH2R+HFe3zejgRuqvau9s7f6ylqxVfTy0+cJFSpg+N5QUdBLSidUsQrwDSompMXznkkfgKYppb7L9swIlkuIeoO2nTQNT5bLNJmzaV6u+HTOV/mUJWw2hUU5X16k6+VquY6Eg6p3alsMWwhbS3b4+Gui852QhYGBZc0MknJg6GXz5KpjXSwW+Qzy2Tq9SOEiiVeLeZrPFutlnrMkZgwDSpaDfCzLU5ncoQ5n64xQ2+H8z+B0M4LaFKGIeELh3oEqALOXTFqY0IqpgjltDkfEACuulXwAdkK5vkcVu7fiG+ZbxXEcLEtARhz62+MxG0Tu4fIlcwxL8dx5M5jynRYcbK9FASXz0r14jPUG17UTWvUuLvRn8NbSV+pdrwQ9Bhh7ioi3WATUgWqofSBS3uz03fuxytdCdaoMl1JzJo8n5lC73LtQT0O9uH0ic4/8IDRIqDBjVrG6RiSrjd6LLgsWXUVbiYeom7gCwtcQMR4YRtgCFr1G/GUHfxzG8S2GQeeQ7oMSXz286cYmXwJPisU04auL6XxWFNN1ztfTPE7iomRlmvI5bSfUHuwLyax9EAo7lH31gWYv2yBQ1mscXLgRtbvCovbogj2DEQsyDEOHb/9lR8/PNurs7IpjMy0JpM6vOpYksCTeojDE7YCURdYhOv8XuIvITReAVN46YgCHRRFGujUQkRDxOkwxUb7K8SEs0WVpwZH8QJ4nRCjyyhhtyN840DKkuIFe266YPVYeFCW6GylLhhElvsbCaoOlBp8NjTaUsBK/2bG84A73rKolXGI1htidNg77xMnGx3FajIYRDsF2Cybi3uCAuagzDI3ueGHWv0KsgdkxSgDPN0qU5NkfY6RxJw3r6E/SbBTB3+A7mmVplpXaZMD47tEmwogtARzjn7g9iU6ed0Rmy0n/wPP/SEDbtv0ctnQ/qaddftrlp11+2uWnXf777vICuLBI7TaI+2b8hx4uDripBH8M3WnzJeR+wNrvR0ay8esLAAA=</values>
@@ -1414,14 +859,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 23:15:05</sys_created_on>
         <sys_id>b52cf6fa93a3e6108543b2597bba106c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:04</sys_updated_on>
         <ui_id>68a99d00-0158-4cc7-91a1-9cef4b6fe8ae</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1V224iMQz9lzwDGq4F3qpWlSq1W2nL9mVVjZzEA9FmkmkuUBbx7+uQ4SL2F3gbH8f2OSeOZsdsDE0MfmHvvVdLw+a/PztMmYTR944pyeaMdZiBGukLa1DaU7wGHTGnpPKNhu3HGRErpaXDtlsDjooDOjbfXaUO3eV4zAfIB7PhZIiTfjEdj4Z8MJ7dcQ79AoAaauCoL8df0wnbJsU+OGWWbfzSFr0fQetkIlF0GH4HNBJpegXaY4fVYCQE67YnxCHIN6PPwEqZkOXV8O3VX5o3LYoinayQFIlW/CksW2MyXD1CAKISRYju5JNVAn32QmIFUYeHSywfeGuCsiaXBOD6WG11rM2P7AQ7Nbi4h+iJBDZJauLeCqneV3bz88jySZmDK21SWwH6FEEg73gMic+ORbW4sjkj/xmNGmuaWNbQNISUjbNrdZhCpOveUlPQq7TdELu0dT0QSWGPrgB6T4Q/HuAPcCrJfaU2VJzG/TLqK+LzYW34HYq+HHf7YjrpjgZSdmdczLq86Beygmo4FCO27zC/9Q8avD8bRTdUfsUkM9vWGlRmj1OJcKoJ90Rqja0X+8+085nP7WXcXsbtZVy+DIlCeeK5SKSej3+PlNjSPipxCW2s+5MUnrH9P9ym5cWHBgAA</values>
@@ -1445,14 +890,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 23:15:05</sys_created_on>
         <sys_id>b92cf6fa93a3e6108543b2597bba1069</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:04</sys_updated_on>
         <ui_id>366ca8c7-4e47-45c6-8960-bc2522677261</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnWdDD71vgIECBtAGaIJc2FVYUaROlSJWk7LiC/71LSZbdJkUbNIceehOH3N2Z8Q7cEF27qnb2Tl9YK9aKLD8+BEQoj+F3QxSUjCwJ1aoQTmiVtUBAtiBrf4GfhbCVhP39CaEbIQvD+m4VGKxxzJBl89OVKLCAR8DjBY1pmkzTJIqS+TjOp2keJ0UKDBJsKCFnEp+ujjTeXLdI8Et+bl953Doj1Lo/X/ddbo+gNoVnFUcBYY+OqYIhHw7SsoCUoApw2uwHxDAobpQ8ARuhXCe4hEcrvuHAZDLxDzlDibR3YzhmvVMdzC/BAVKpqavNYJwWlNnOnIJxqKVbnWPdg5vKS+1KHOTyWK1lXar3nSNkaHD2w9QWSbDKK/XUex38dqN3H44sr4RqXekvpaYghxM49C6vnefTECZZiY2yEqoKHc0qo7eiLUYuZbiWeAi51Dsc6rcrBOqJh2gshFeIX7bwPRjhVbzDNljc0czBCpq1m4jt0CZGDgGxe7uSYO1JJLqbfa09xU5yLy7r/PEl1IjKXeDkLet1HIKni322001D49ksjccwyvmcjsZ0no8ghmTEJnw8m6aL2Xy2CIVjZWiZ75BVyOlw+FRHUVq0Iz6/pAkXxroferR6n0Tr3yH2qgmPn0v4M9l+YayT38TaS/nDVEdR9D/Wfx1rYbMujL22dvgrpvrBR7ibOXhNhUVqdx57e/xX8xd7XC5Bz6GdNl+8qBN2+A77y5srHwcAAA==</values>
@@ -1476,14 +921,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 23:15:05</sys_created_on>
         <sys_id>bd2cf6fa93a3e6108543b2597bba106a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:04</sys_updated_on>
         <ui_id>fbfdb826-1958-4ea2-ba0c-7cd6137e5c87</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1ZbW/iOBD+K1E+c1ycQCh8W7VXaaW921NB/bJaRY4zAWtNknWcdrmq//3GifMCBLbs0hUrVUJqPXbGz8w8z8SGJzstVFaofJG+y3O+TOzZp88Dmyfahv8/2Qldgz2zo0JSxdMkUJsM7IH9QEWh7fAtE5xxFdQLcC7ieSbo5t4s+csssTpL2IqLSILZLqMSd1Eg7dnTzhSP0MNoOvHGV2Q08RyPeI4T+gR8fzTxw9ink6sxOhQ0BIFLb8we1qLCeQB++WeGe6Wc1eMPxsV1bUxlpCERxxlgnAqSCBBNTEUOA3tNk4iqVG4aiwQafUxEa1jxRKE/Wy/+lvP/cMeRo9fFgPExqOaaYWDyVpnjG6roXMmCqUKapRXcqi51wH3ZPVYcE5TzPGh93IHA6Qfo8yHNXI8P0vXxL0gGiaLLXi9ZM9vjx33GQkcQ00Ko6/OFSM4QonumED0dYlW+j1k5NbM9zTsairq4qSjWyT8VX+0mIffHhFYtufm+3oocUUGmKaw5aQgaz1fp413Nv1uelFjNpEgZFc2IKiV5WChdmicbBKzRUbCmWcaTZZDJ9IGXD2MY6+FS4GAYi/QRN9VdZUiZBjJExdDhLdpvSvM9lVwn4G90gw8/D+x8k18LmudtGlAewddCI6mSYmIIyhSWjzDJM/WO6QoauLpoRvidqii+BhmUrS1AIKDHnfrtN66T+1QYk8gnPgknnu9in/JGzGfgTwEIoVPX6fSpDpdKXFaJy9K4LAPsxRGYZlZmvbQHnYm6q2E7gT8Xlf0VGlvp6xydra8V7GvnJOn8LvxHFuVBRWcTW7n5q+iiolLLrfMK4crxPM+ZsrE3aYQQRQBxPAmJC6RXCC3le8AZjiPxYFmmqsvt9431jdlvzC7J0/OCJtOJ84dD8GM5zkx//H2q+9YcWJpE+cmch5iMxuzQITWEnkPqLuM7oLd7+rb9w76b+rhygUfVN9r/QtrvHWWDFIHo4neEQGNVgtuhfm0+jfYRoyPijA/Q3vU7tF+UBx25exK3OhBfHswpNzjvAmXRXivqvO+Wp++mFkKcyu7LujE0l57jd6nvbEZO2sz96VtNQ8Xem0w9uyN2TOklar1GyDbBsZtlZ5nhcEvE0xvD9hcbP9wlXuc+RGJ3HB3sDRPvSG/Yvwe9APqPXoRGF9gffslr8yeV1P92G7wpDNOygqgQZ9ZTHI7HeMg8oCff3T5iYuYttQIrTgWmVI86qA6hNQlrGbwtnruO3YhnfEbxeO62eNg66YLrE9K8nb4AQZ1+Do3nQCVb3XIQusRlXX63r9s+a5ZXvptMM54jhIW2va9/TdATG4yQs67pMZVfNPjW9vw/zoNq8JcYAAA=</values>
@@ -1507,14 +952,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 23:15:05</sys_created_on>
         <sys_id>f12cf6fa93a3e6108543b2597bba1066</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:04</sys_updated_on>
         <ui_id>c177314a-bf8c-4c8b-a1a2-e5f476397879</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/51TwW6jMBD9F58JgpAmIbeqVaVK3a2UVr2sqmiwh8RaY7O2Scqi/PuOY0KrHvcE8zzz5r2HGZjpfNt592punZN7zTa/3hMmdcDofWAaGmQbJj02jiXsCKoL9TCUxSKfrxd8tuTL9WzBV3xWViuY4XpVcbjhi6ou0i1yY4U7n2lUSNcq6N/+n4EfpBIWR5EtWNLm0bLN8O1IClqQl6Iu86zkxXxZzLOMVuXVsqjyuSgAxZIIFVSoqPVxdPfNrO/bUNooYQSexpnthNIjiJhnCcMPj1ogra9BOUxYA1qAN7ZnG287AiyCeNaqnzoOUnuiY6H3w8m/tDHPstBYIxniGA+ncjfmGOH6Hjy8EDX3nR1b+cFIji5GIbCGTvm7r1hseG69NDqOeKjUddqortE/YxJsIrh+NkI6RyKwDUaD9NFH/XIwp+1V5YPUl1DGQ2U4qKkC762sOh/0DAwVNkS0a6Btpd7vWmuO8jJMWpp0r6hIa2VOtDRc0RR4EJ5SrpA+EH5/gd/AyuDiB9HQ8Dlhrnd3Cpz79EIh7v50QUl0NnrYxRjCCLey9be04Iij3PN7uPWRe8qUS0cSXgP2eP1XwkFPN0jyr9DJ2N9B/Cd2/gc+TRdVdQMAAA==</values>
@@ -1538,14 +983,14 @@
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 23:15:05</sys_created_on>
         <sys_id>f52cf6fa93a3e6108543b2597bba1068</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
+        <sys_updated_on>2025-08-28 16:13:04</sys_updated_on>
         <ui_id>e9fee9ec-da71-4bb1-98e3-fc8c76a0d52a</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnWdDD71vgIECBtAGaIJc2EFYUaROlSJWk7LiC/71LSZaNxEUbNMfexCF3OTPcgRqia1fVzj7oK2vFWpHl16eACOUx/G6IgpKRJaFaFcIJrbIWCMgWZO038LMQtpKwfzwhdCNkYVjfrQKDNY4ZsmxebIkCC3gEPF7QmKbJNE2iKJmP43ya5nFSpMAgxYYScibx6OpI48NtiwS/5ef2lcetM0Kt+/Vt3+X+CGpTeFZxFBD27JgqGPLhIC0LSAmqAKfNfkAMg+JOyROwEcp1gkt4tuInXphMJv4gZyiR9m4My6x3qoP5NThAKjV1tRmM04Iy25lTMA61dKtzrDtwV3mpXYmDXB6rtaxL9blzhAwNzh6mtkiCVV6pp97r4PcbvftyZHkjVOtKvyk1BTmswKF3ee08n4YwyUpslJVQVehoVhm9FW0xcinDtcRFyKXe4aV+ukKgnniIxkJ4g/h1Cz+CEV7FJ2yDxR3NHKygWTuJ2A5tYuQQELu3KwnWnkSiu9mP2lPsJPfiss4fX0KNqNwV3rxlvY5D8Hqwz2a6aWg8m6XxGEY5n9PRmM7zEcSQjNiEj2fTdDGbzxahcKwMuTDWZRVSOhy+1VGUFu0Nr2PxPk3flqwFTPgkjiaXkzWeXkrWhUy9MU7JH+Lk3/Iv0xRF0f84/XOchM26EPTaumF6vzQ9+eh0dw5eU2GR2oPHPh7/Jn5jj8Ml6Dm00+a7F3XCDr8AigsUCpcGAAA=</values>
@@ -1636,75 +1081,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_variable>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>table_name</element>
-        <help/>
-        <hint/>
-        <label>Table Name</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_312cf6fa93a3e6108543b2597bba1007</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 23:15:05</sys_created_on>
-        <sys_id>752cf6fa93a3e6108543b2597bba102f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Khoros Lookup" source="x_snc_khoros_looku">28716af29323e6108543b2597bba1029</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>changed_fields</element>
-        <help/>
-        <hint/>
-        <label>Changed Fields</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_312cf6fa93a3e6108543b2597bba1007</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 23:15:05</sys_created_on>
-        <sys_id>bd2cf6fa93a3e6108543b2597bba101b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Khoros Lookup" source="x_snc_khoros_looku">28716af29323e6108543b2597bba1029</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>current</element>
-        <help/>
-        <hint/>
-        <label>Record</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_312cf6fa93a3e6108543b2597bba1007</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>earl.duque@servicenow.com</sys_created_by>
-        <sys_created_on>2025-08-27 23:15:05</sys_created_on>
-        <sys_id>f92cf6fa93a3e6108543b2597bba1014</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Khoros Lookup" source="x_snc_khoros_looku">28716af29323e6108543b2597bba1029</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:05</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_312cf6fa93a3e6108543b2597bba1007"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_312cf6fa93a3e6108543b2597bba1007"/>
     <sys_hub_flow action="UPDATE">
@@ -1717,13 +1093,13 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"462cf6fa93a3e6108543b2597bba1099","name":"plan","plan_signature":null}}</plan>
         <plan_id>f8a6e2ba9323e6108543b2597bba1066</plan_id>
-        <snapshot>2f2c3afa93a3e6108543b2597bba109e</snapshot>
+        <snapshot>d225260793ab2a108543b2597bba1096</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>earl.duque@servicenow.com</sys_created_by>
         <sys_created_on>2025-08-27 23:15:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>462cf6fa93a3e6108543b2597bba1099</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1731,8 +1107,8 @@
         <sys_scope display_value="Khoros Lookup">28716af29323e6108543b2597bba1029</sys_scope>
         <sys_update_name/>
         <sys_updated_by>earl.duque@servicenow.com</sys_updated_by>
-        <sys_updated_on>2025-08-27 23:15:06</sys_updated_on>
-        <trigger display_value="">062cf6fa93a3e6108543b2597bba1097</trigger>
+        <sys_updated_on>2025-08-28 16:13:05</sys_updated_on>
+        <trigger display_value="">ce25224b472ba610e52659db416d433e</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f8a6e2ba9323e6108543b2597bba1066"/>
 </record_update>
